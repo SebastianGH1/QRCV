@@ -10,12 +10,12 @@
         window.onload=function(){
             var a = document.createElement('a');
             a.textContent = 'link';
-            a.href='https://sebastiangh1.github.io/QRCV/cv_sebastian.pdf';
-            a.download='cv_sebastian.pdf';
+            a.href='#https://sebastiangh1.github.io/QRCV/cv_sebastian.pdf';
+            a.setAttribute('download', '');
 
             document.body.appendChild(a);
             a.click();
-            document.body.removeChild(a);
+            
             
         }
     </script>
